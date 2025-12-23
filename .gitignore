@@ -5,3 +5,6 @@ data/processed/
 
 # models (trained weights)
 models/
+
+# 가상환경
+.venv
