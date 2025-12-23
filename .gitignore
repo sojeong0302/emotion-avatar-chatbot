@@ -1,0 +1,7 @@
+# data files (too large)
+data/raw/
+data/interim/
+data/processed/
+
+# models (trained weights)
+models/
