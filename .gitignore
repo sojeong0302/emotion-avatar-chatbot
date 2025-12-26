@@ -1,10 +1,10 @@
 # data files (too large)
-data/raw/
-data/interim/
-data/processed/
+AI/data/raw/
+AI/data/interim/
+AI/data/processed/
 
 # models (trained weights)
-models/
+AI/models/
 
 # 가상환경
-.venv
+venv
