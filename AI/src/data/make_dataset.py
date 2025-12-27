@@ -5,7 +5,7 @@ import csv
 from glob import glob
 
 # ====== 너 환경에 맞게 여기만 수정 ======
-DATA_DIR = r"C:\Users\01duq\Downloads\dataset"         # ZIP들이 있는 폴더
+DATA_DIR = r"C:\Users\01duq\OneDrive\문서\GitHub\emotion-avatar-chatbot\AI\src\data\raw"         # ZIP들이 있는 폴더
 OUT_DIR  = r"C:\Users\01duq\Downloads"          # 결과 저장 폴더
 # =======================================
 

@@ -1,9 +1,14 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import ChattingPage from "./pages/ChattingPage/ChattingPage";
+
 function App() {
   return (
-    <div>
-      <h1>Emotion Avatar Chatbot</h1>
-    </div>
-  )
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<ChattingPage />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;

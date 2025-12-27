@@ -16,8 +16,8 @@ from src.train.utils import set_seed
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--train_csv", default="data/processed/sample/train_sample.csv")
-    parser.add_argument("--valid_csv", default="data/processed/sample/valid_sample.csv")
+    parser.add_argument("--train_csv", default="src/data/processed/train.csv")
+    parser.add_argument("--valid_csv", default="src/data/processed/valid.csv")
     parser.add_argument("--model_name", default="klue/roberta-base")
     parser.add_argument("--max_length", type=int, default=128)
     parser.add_argument("--batch_size", type=int, default=16)

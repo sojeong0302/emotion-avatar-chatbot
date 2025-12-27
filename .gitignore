@@ -1,7 +1,7 @@
 # data files (too large)
-AI/data/raw/
-AI/data/interim/
-AI/data/processed/
+AI/src/data/raw/
+AI/src/data/interim/
+AI/src/data/processed
 
 # models (trained weights)
 AI/models/

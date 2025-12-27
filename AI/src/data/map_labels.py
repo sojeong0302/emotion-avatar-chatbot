@@ -1,10 +1,14 @@
 import pandas as pd
 import os
 
-TRAIN_CSV = r"C:\Users\01duq\Downloads\train.csv"
-VALID_CSV = r"C:\Users\01duq\Downloads\valid.csv"
-OUT_DIR   = r"C:\Users\01duq\Downloads\processed"
-os.makedirs(OUT_DIR, exist_ok=True)
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent  # AI/src/data
+TRAIN_CSV = BASE_DIR / "processed" / "train.csv"
+VALID_CSV = BASE_DIR / "processed" / "valid.csv"
+OUT_DIR = BASE_DIR / "processed"
+OUT_DIR.mkdir(parents=True, exist_ok=True)
+
 
 # 표정용 라벨로 통합 (필요하면 너 스타일에 맞게 더 수정 가능)
 MAP = {
